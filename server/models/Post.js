@@ -10,9 +10,9 @@
 /*------------------------------------------------IMPORTING LIBRARIES------------------------------------------*/
 import mongoose from "mongoose";
 /**
- *  This line imports the Mongoose library.
+ * This is importing the Mongoose library.
+ * This library provides a convenient way to interact with MongoDB databases, allowing developers to define schemas, models, and perform various operations on data stored in a MongoDB database.
  */
-
 
 
 
