@@ -1,5 +1,26 @@
-import mongoose from "mongoose";
+/*-----------------------------------------------FUNCTION OF THE FILE--------------------------------------------*/
+/**
+ * This file is defining an array of user data (users) and an array of post data (posts). These arrays contain objects that represent user and post documents, respectively. 
+ * This is just dummy data so that we donot start with an empty website.
+ * 
+ */
 
+
+
+
+
+/*----------------------------------------------------IMPORTING-----------------------------------------------------*/
+import mongoose from "mongoose";
+/**
+ * This is importing the Mongoose library.
+ * This library provides a convenient way to interact with MongoDB databases, allowing developers to define schemas, models, and perform various operations on data stored in a MongoDB database.
+ */
+
+
+
+
+
+/*-----------------------------------------------DUMMY USERS ARRAY--------------------------------------------*/
 const userIds = [
   new mongoose.Types.ObjectId(),
   new mongoose.Types.ObjectId(),
@@ -141,7 +162,17 @@ export const users = [
     __v: 0,
   },
 ];
+/**
+ * This array contains user data, where each element is an object representing a user document. 
+ * Each user document contains properties like _id, firstName, lastName, email, password, picturePath, friends, location, occupation, viewedProfile, impressions, createdAt, updatedAt, and __v. 
+ * The _id property contains a MongoDB ObjectId generated using mongoose.Types.ObjectId().
+ */
 
+
+
+
+
+/*-----------------------------------------------DUMMY POSTS ARRAY--------------------------------------------*/
 export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
@@ -283,3 +314,8 @@ export const posts = [
     ],
   },
 ];
+/**
+ * This array contains post data, where each element is an object representing a post document. 
+ * Each post document contains properties like _id, userId, firstName, lastName, location, description, picturePath, userPicturePath, likes, and comments. 
+ * The _id property also contains a MongoDB ObjectId generated using mongoose.Types.ObjectId(), and the likes property is a Map containing user IDs (generated using mongoose.Types.ObjectId()) as keys and booleans as values.
+*/
