@@ -45,7 +45,7 @@ const postSchema = mongoose.Schema(
       default: [],
     },
   },
-  { tinestamps: true }
+  { timestamps: true }
 );
 /**
  * This defines the schema for the "post" entity using Mongoose. It has several fields, such as userId, firstName, lastName, location, description, picturePath, userPicturePath, likes, and comments. 
