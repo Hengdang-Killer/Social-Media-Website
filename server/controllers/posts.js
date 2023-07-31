@@ -35,7 +35,7 @@ export const createPost = async (req, res) => {
     });
     await newPost.save(); // savinng the post into the mongoDB
 
-    const post = await Post.find(); //grab all the post with the new post
+    const post = await Post.find(); //grab all the posts with the new post
     res.status(201).json(post); // return the posts to the frontend // 201 represents we have created something
   } catch (err) {
     res.status(409).json({ message: err.message });
