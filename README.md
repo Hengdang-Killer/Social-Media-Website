@@ -12,6 +12,10 @@ This project is a full-stack social media website developed using the MERN (Mong
 - Add New Friends : Expand social circles by adding new friends, reconnecting with old acquaintances, and forging new connections.
 - Bridging Communication : The platform serves as a bridge, connecting people from diverse backgrounds and facilitating communication and interaction.
 
+## Demo
+
+![](https://github.com/Hengdang-Killer/Social-Media-Website/blob/main/demo)
+
 ## Usage
 
 - Clone the repository to your local machine.
